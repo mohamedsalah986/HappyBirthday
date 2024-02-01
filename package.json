@@ -1,0 +1,30 @@
+{
+  "homepage": "https://github.com/mohamedsalah986/HappyBirthday",
+  "name": "birthday",
+  "version": "1.0.0",
+  "description": "Birthday greetings..",
+  "main": " ",
+  "scripts": {
+    "server-node": "http-server -p 8081",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayusharma/birthday.git"
+  },
+  "keywords": [
+    "Birthday"
+  ],
+  "author": "Ayush Sharma",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/ayusharma/birthday/issues"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
